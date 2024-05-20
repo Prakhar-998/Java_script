@@ -1,4 +1,5 @@
 //Primitive (call by value)
+
 /* 7 types:
 String,
 Number,
@@ -10,6 +11,7 @@ BigInt
 */
 
 //Reference(non primitive)
+
 /*Array
 Object
 Function
@@ -38,3 +40,8 @@ const myFunction=function(){
 //check data types of function,null,undefined,array,object etc
 
 console.log(typeof myFunction)
+
+//++++++++++++++++++++ # ++++++++ # ++++++++++++++++//
+
+//heap memory:gives a reference of og value:: used in non primitive types
+//Stack memory:gives a copy of og value:: used in primitive
