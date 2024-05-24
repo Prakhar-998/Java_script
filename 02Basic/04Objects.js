@@ -53,3 +53,35 @@ console.log(Object.entries(user))//array of arrays
 
 console.log(user.hasOwnProperty('isLogged'))//checks if object has this property
 
+
+//*************************************** */
+//Destructuring objects
+
+const course = {
+    name: "js",
+    price: 999,
+    instructor: "hitesh"
+}
+
+//destructure so dont have to keeep repeating .course.instructor etc , this is just syntax thing to make things cleaner
+const{instructor}= course
+console.log(instructor)
+
+//can be even renamed to shorten
+const {instructor: ins} = course
+console.log(ins)
+
+//******************************** //
+//JSON
+
+// {
+//     "name": "prakhar",
+//     "courseName": "js",
+//     "price": "Free"
+// }
+
+// [//can be in the form of array of objects like this too
+//     {},
+//     {},
+//     {}
+// ]
