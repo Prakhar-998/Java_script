@@ -28,7 +28,28 @@ console.log(obj3_1)
 
 const obj3_2 = Object.assign({},ob1,ob2)//better than last one //*******.assign */copies Copy the values from one or more source objects to a target object. Returns the target object
 //const returnTarget = Object.assign(Target,source)
+//enumerable: can be looped
 console.log(obj3_2)
 
 const obj3_3 = {...ob1,...ob2}//spread method, best
 console.log(obj3_3)
+
+const users = [// array with objects inside
+    {
+        id: 1,
+        email: "sdfasdf@gmail.com"
+    },
+    {
+        id: 2,
+        email: "fghdfgh@gmail.com"
+    }
+]
+console.log(users[1].email)
+
+console.log(user)
+console.log(Object.keys(user))//array of keys
+console.log(Object.values(user))//array of vals
+console.log(Object.entries(user))//array of arrays
+
+console.log(user.hasOwnProperty('isLogged'))//checks if object has this property
+
