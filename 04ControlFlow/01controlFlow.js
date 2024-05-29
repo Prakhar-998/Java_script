@@ -45,3 +45,5 @@ Temp>=30 ? console.log("temprature is high") : console.log("not high")
 
 
 
+
+
