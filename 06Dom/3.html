@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body style="background-color: rgba(0, 0, 0, 0.808);">
+    
+</body>
+<script>
+    const div = document.createElement('div')
+    console.log(div)
+    div.className="main"
+    div.id= Math.round((Math.random()*10)+1)
+
+    div.setAttribute("title", "generated title")
+    div.style.color = "white"
+    // all of this will show in inspect not on the main page as it is only on the memory
+
+    //using setAttribute is more efficient as it directly sets the value while . id, .className etc forst go to fretch the current value and then overwrite them.
+
+    //Now to add the text to main page , 2 ways, arguable efficiency
+    div.innerText = "Prakhar Jaiswal "
+
+    const addText = document.createTextNode("Prakhar Jaiswal")
+    div.appendChild(addText)
+
+    //Finally to add to main page
+    document.body.appendChild(div)
+</script>
+</html>
