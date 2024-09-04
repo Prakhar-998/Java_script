@@ -1,0 +1,6 @@
+js(default)= sunchronous, single threaded ie one operation at a time after one another
+each operation for the last one to cpmplete before starting to execute
+
+blocking code(sync )vs non blocking code(async)
+stops the flow of program to run the next operation vs doesnt stop the flow and let u run next onw while previous one runs in background
+use cases differ, non blocking is useful as long as registeration or payment gateways are not concerned
