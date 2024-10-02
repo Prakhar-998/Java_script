@@ -15,4 +15,6 @@ To push the changes:
 git commit -m "first commit"  (-m is for the message)
 git push
 
+To get updated changes again and again on local machine :
+git pull
 
