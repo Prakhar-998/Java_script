@@ -1,0 +1,16 @@
+To pull a code :
+create a folder where u want the code files to be saved on system.
+go to the folder and choose "open git here" option (more option>)
+type in "git clone theURLofrepository   (get the url from code download drop box from repo home, github)
+this will clone the repo to th system
+
+To track changes:
+git status(in git bash terminal in the folder)
+
+by default the changes made are untracked(wont be commited automatically to the web version)
+to add the to the commit index:
+git add filename.type
+
+To push the changes:
+git commit -m "first commit"  (-m is for the message)
+
