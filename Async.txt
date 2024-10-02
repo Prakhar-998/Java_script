@@ -1,0 +1,5 @@
+js at default = synchronous, single threaded(one thing runs at a time, in order)
+
+execution context = execute 1 line of code at time, ie next operations waits for the previous one to complete
+
+blocking code vs nonblocking: stops the flow and read the file sync vs keep the program going and read it and notify when reading is done(read Async), (non blockingis better as long as payment gateways type of use cases are not concerned)
