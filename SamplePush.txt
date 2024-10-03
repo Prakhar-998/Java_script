@@ -27,3 +27,4 @@ git merge origin
 
 git commit -a // adds all the files that have been changed to the commit index
 
+git reset --hard addCommitID
