@@ -18,3 +18,8 @@ git push
 To get updated changes again and again on local machine :
 git pull
 
+to get the repo updated from web to local machine without automatically overwriting the changes on local save:
+git fetch. //saves a local copy without overwriting previous copy// updated info would be in the local git repo but not show ,over the previous save point
+
+to merge into previous save point:
+git merge origin
