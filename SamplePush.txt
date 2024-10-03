@@ -23,3 +23,7 @@ git fetch. //saves a local copy without overwriting previous copy// updated info
 
 to merge into previous save point:
 git merge origin
+
+
+git commit -a // adds all the files that have been changed to the commit index
+
