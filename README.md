@@ -1,2 +1,2 @@
 # Java_script
-Code repo for java script
+My personal journey while learning Java Script for backend.
